@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: microservice
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: microservice
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: microservice
-        image: GITHUB_USERNAME/sample-microservice:latest
+        image: cod7as/sample-microservice:latest
         ports:
         - containerPort: 3000
         resources:
