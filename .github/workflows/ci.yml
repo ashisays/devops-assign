@@ -64,7 +64,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKER_USERNAME }}/sample-microservice:latest
-            ${{ secrets.DOCKER_USERNAME }}/sample-microservice:${{ github.sha }}
+            cod7as/sample-microservice:latest
+            cod7as/sample-microservice:${{ github.sha }}
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
