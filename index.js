@@ -18,3 +18,4 @@ app.listen(port, () => {
 app.get('/health', (req, res) => {
   res.json({ status: 'UP' });
 });
+// TODO: Add metrics endpoint
