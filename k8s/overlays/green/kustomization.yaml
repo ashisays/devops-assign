@@ -1,3 +1,7 @@
 resources:
 - ../../base
 namePrefix: green-
+images:
+- name: cod7as/sample-microservice
+  newName: cod7as/sample-microservice
+  newTag: green
